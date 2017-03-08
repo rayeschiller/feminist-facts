@@ -1,0 +1,97 @@
+{
+  "userSays": [
+    {
+      "id": "c61ba1be-6d66-4f63-844a-95bb9f3895fe",
+      "data": [
+        {
+          "text": "I want to find out if I am a feminist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "df17a942-e0f7-488f-9b6f-81a68c970bec",
+      "data": [
+        {
+          "text": "Can I find out if I am a feminist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9d65e5c-934d-4afa-a167-b5aeec9f490a",
+      "data": [
+        {
+          "text": "Do I care about gender equality"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0bf048e5-6ac6-4ba5-836d-48321cfa7906",
+      "data": [
+        {
+          "text": "Let\u0027s find out if I am a feminist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ab07c410-a4e6-467b-90de-ed19d77b31f0",
+      "data": [
+        {
+          "text": "Do I believe in gender equality"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "412db0de-5da5-43ca-8e2b-f99045405f07",
+      "data": [
+        {
+          "text": "Am I a feminist"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "565b6025-26d0-45d6-8f4e-1583376890d3",
+  "name": "find-out-feminist",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "feminist-status",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Do you believe that all people should be given the right to have control over their bodies?",
+            "Do you believe that all people should be treated equally regardless of their race, class, or gender?",
+            "Do you believe in social, political, and economic equality of the sexes?",
+            "Do you think all human beings are equal?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

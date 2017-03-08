@@ -1,0 +1,57 @@
+{
+  "userSays": [
+    {
+      "id": "0f3f7d10-21b9-4bf9-8da3-a8335715ff0e",
+      "data": [
+        {
+          "text": "yes I do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0b66cfa8-edc5-472d-9f8a-f491538321ba",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "16f2e9ab-05ee-46c3-b5a7-f37d0284d42e",
+  "name": "yes-feminist",
+  "auto": true,
+  "contexts": [
+    "feminist-status"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fact-status",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Great, you are a feminist. Do you want to hear a feminist fact?",
+            "Congrats you\u0027re a good person! Do you want to hear a feminist fact?",
+            "Great choice. You are a feminist. Do you want to hear a feminist fact?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

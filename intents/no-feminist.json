@@ -1,0 +1,47 @@
+{
+  "userSays": [
+    {
+      "id": "ed049cb1-b62f-481e-a777-fbdacbd3234a",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d2566fb6-1549-4a1a-a74e-25a54ad784a8",
+  "name": "no-feminist",
+  "auto": true,
+  "contexts": [
+    "feminist-status"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fact-status",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You are a shitty person. Do you want to hear a feminist fact to learn more?",
+            "You don\u0027t believe in equality? Come on! Do you want to learn more about feminism?",
+            "Believing in everyone\u0027s right to be equal is important. Do you want to learn more about feminism?"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

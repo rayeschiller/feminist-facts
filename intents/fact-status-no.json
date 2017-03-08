@@ -1,0 +1,48 @@
+{
+  "userSays": [
+    {
+      "id": "caf95f8d-8e98-4585-8793-09a06e02764a",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d84abc77-8ff9-4163-9dc2-1dac26fdb733",
+  "name": "fact-status-no",
+  "auto": true,
+  "contexts": [
+    "fact-status"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fact-status",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I\u0027ll tell you one anyway. Only 17% of the seats in Congress are held by women.",
+            "Too bad. One out of every four women will experience domestic violence in her lifetime.",
+            "Okay. Thanks for supporting gender equality. Goodbye.",
+            "Too bad, this one is important. Despite attempts to add an Equal Rights Amendment in the Constitution, there is no guarantee of equal rights for women in any legal document or any piece of legislation.."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

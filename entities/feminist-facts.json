@@ -1,0 +1,21 @@
+{
+  "id": "71249204-fe75-428e-b419-29a090c78d81",
+  "name": "feminist-facts",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "The goal of feminism is to challenge the systemic inequalities women face on a daily basis.",
+      "synonyms": [
+        "The goal of feminism is to challenge the systemic inequalities women face on a daily basis."
+      ]
+    },
+    {
+      "value": "Contrary to popular belief feminism has nothing to do with belittling men, in fact feminism does not support sexism against either gender. Feminism works towards equality, not female superiority.",
+      "synonyms": [
+        "Contrary to popular belief feminism has nothing to do with belittling men, in fact feminism does not support sexism against either gender. Feminism works towards equality, not female superiority."
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

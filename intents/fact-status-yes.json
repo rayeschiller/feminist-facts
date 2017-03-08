@@ -1,0 +1,127 @@
+{
+  "userSays": [
+    {
+      "id": "511badc4-9af9-4c52-90a9-2fbd5a903ad7",
+      "data": [
+        {
+          "text": "I want to learn about gender equality"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "656a6fbc-2d88-4066-825d-b46819415daa",
+      "data": [
+        {
+          "text": "I want to learn more about feminism"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "662309da-376a-41f7-b0b3-17e8ebcf1f5f",
+      "data": [
+        {
+          "text": "Tell me a feminist fact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "019b8ffe-76b9-4d7d-a3c5-c7cdf5f302ec",
+      "data": [
+        {
+          "text": "Feminist fact please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bd7ec247-3dd8-42da-82c4-1a5260e8e6c0",
+      "data": [
+        {
+          "text": "I want to hear a fact about feminism"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66e1bae9-9bc5-4f9f-af1f-9dbd63c745f8",
+      "data": [
+        {
+          "text": "Can I hear a feminist fact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac05a472-f21b-4c6c-a684-21ec9616db96",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "e655c691-fb31-4606-bf01-7e968065c222",
+      "data": [
+        {
+          "text": "feminist-fact"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "5333e6bb-9048-44c6-9941-5638a1311dfc",
+  "name": "fact-status-yes",
+  "auto": true,
+  "contexts": [
+    "fact-status"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fact-status",
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Feminism is defined as the belief in the social, political, and economic equality of the sexes.",
+            "The goal of feminism is to challenge the systemic inequalities women face on a daily basis.",
+            "Only 17% of the seats in Congress are held by women.",
+            "Feminism has nothing to do with belittling men, in fact feminism does not support sexism against either gender. Feminism works towards equality, not female superiority.",
+            "Women earn 78 cents for every dollar a man makes.",
+            "Despite previous attempts to ratify a UN treaty guaranteeing the elimination of all forms of discrimination against women, the U.S. refuses to support an international bill of rights for women signed by nearly every other nation on the planet.",
+            "America\u0027s top female CEOs earn, on average, 33 cents for every dollar earned by a male CEO.",
+            "Although 48% of law school graduates and 45% of law firm associates are female, women make up only 22% of federal-level and 26% of state-level judgeships.",
+            "There\u0027s nothing in the U.S. Constitution that guarantees women the same rights as a man. Despite attempts to add an Equal Rights Amendment, there is no guarantee of equal rights for women in any legal document or any piece of legislation.",
+            "Feminists respect individual, informed choices and believe there shouldn\u0027t be a double standard in judging a person. Everyone has the right to sexual autonomy and the ability to make decisions about when, how and with whom to conduct their sexual life.",
+            "Even in the 10 top paying jobs for women, females earn less than men; only one career, speech pathology, pays the same regardless of gender.",
+            "",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

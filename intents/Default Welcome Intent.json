@@ -1,0 +1,71 @@
+{
+  "userSays": [
+    {
+      "id": "970ee2b4-eaf4-406d-a039-c22276d558a5",
+      "data": [
+        {
+          "text": "Start feminist facts"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "caa8661d-b8d0-4798-bbbc-65cd57720a44",
+      "data": [
+        {
+          "text": "Hello feminism"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dfdc5ea8-f3ed-49fa-9f57-192dc53ef6f5",
+      "data": [
+        {
+          "text": "Open feminist facts"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "13c4d0df-31cd-40a4-8e3b-f2fb3ea47d11",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "fact-status",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Welcome to Am I a Feminist Test! You can say \u0027tell me a feminist fact\u0027 or \u0027find out if I am a feminist\u0027",
+            "Hello! Welcome to the feminist test. You can say \u0027tell me a feminist fact\u0027 or \u0027find out if I am a feminist\u0027",
+            "Greetings! You can say \u0027tell me a feminist fact\u0027 or \u0027find out if I am a feminist\u0027",
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

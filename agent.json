@@ -1,0 +1,31 @@
+{
+  "description": "This is a simple test to see if you are a feminist or not. You can also hear some feminist facts.",
+  "language": "en",
+  "enabledDomainFeatures": [],
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "feminist fact",
+    "project": "feminist-fact-12",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "5333e6bb-9048-44c6-9941-5638a1311dfc",
+        "signInRequired": false
+      }
+    ],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_2"
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "available": false,
+    "useForDomains": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}
